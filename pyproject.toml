@@ -1,0 +1,21 @@
+[project]
+name = "fused-ssim"
+version = "0.1.0"
+description = "Fast SSIM"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "setuptools>=61.0",
+    "wheel",
+    "pybind11>=2.10",
+    "torch",
+]
+
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "wheel",
+    "pybind11>=2.10",
+    "torch",
+]
+build-backend = "setuptools.build_meta"
